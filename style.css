@@ -180,19 +180,33 @@ body {
 
 .fourth-container {
     background-color: white;
-    flex: 1;
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 200px;
+    padding: 0 100px;
 }
 
 .call-to-action {
+    display: flex;
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 50px;
-    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 40px 120px;
+    margin: 100px 0;
     gap: 16px;
+    flex: 1;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#cta-header {
+    font-weight: 900;
 }
 
 .sign-up-cta-button {
@@ -200,17 +214,10 @@ body {
     font-weight: 900;
     color: #F9FAF8;
     border: #F9FAF8 solid;
-    box-shadow: none;
-    text-decoration: none;
-    padding: 8px 26px;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-bottom: 8px;
-}
-
-.cta-text {
-    display: flex;
-    flex-direction: column;
+    padding: 0 80px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 /* Fifth part */
