@@ -2,8 +2,6 @@
 
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
 body {
@@ -11,7 +9,11 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    padding: 0;
+    margin: 0;
 }
+
+/* First section */
 
 .header {
     background-color: #1F2936;
@@ -50,6 +52,53 @@ body {
     background-color: grey;
     height: 200px;
     width: 400px;
+}
+
+.container {
+    display: flex;
+    padding-bottom: 100px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.container-logo {
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.container-links {
+    display: flex;
+    flex: 1;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: flex-end;
+}
+
+.low-header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.low-header-child {
+    flex: 1;
+}
+
+.low-header-child-picture {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.awesome-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 /* Second part */
@@ -93,7 +142,6 @@ body {
 .subtext {
     width: 200px;
 }
-
 
 /* Third part */
 
@@ -165,7 +213,6 @@ body {
     flex-direction: column;
 }
 
-
 /* Fifth part */
 
 .fifth-container {
@@ -177,54 +224,4 @@ body {
     text-align: center;
     padding: 40px 0;
     color: #F9FAF8;
-}
-
-
-/* hmm */
-
-.container {
-    display: flex;
-    padding-bottom: 100px;
-    align-items: center;
-    padding-top: 10px;
-}
-
-.container-logo {
-    flex: 1;
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 900;
-}
-
-.container-links {
-    display: flex;
-    flex: 1;
-    gap: 16px;
-    font-size: 18px;
-    color: #E5E7EB;
-    justify-content: flex-end;
-}
-
-.low-header {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    padding-bottom: 100px;
-}
-
-.low-header-child {
-    flex: 1;
-}
-
-.low-header-child-picture {
-    display: flex;
-    flex: 1;
-    justify-content: flex-end;
-}
-
-.awesome-picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
 }
