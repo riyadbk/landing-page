@@ -100,7 +100,39 @@ body {
 .third-container {
     background-color: #E5E7EB;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 200px;
+}
+
+.quote-text-author {
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+
+
+/* Fourth part */
+
+
 
 .fourth-container {
     background-color: white;
