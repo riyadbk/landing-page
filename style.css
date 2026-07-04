@@ -128,16 +128,45 @@ body {
     font-size: 36px;
 }
 
-
-
 /* Fourth part */
-
-
 
 .fourth-container {
     background-color: white;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
 }
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px;
+    display: flex;
+    gap: 16px;
+}
+
+.sign-up-cta-button {
+    background-color: #3882F6;
+    font-weight: 900;
+    color: #F9FAF8;
+    border: #F9FAF8 solid;
+    box-shadow: none;
+    text-decoration: none;
+    padding: 8px 26px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Fifth part */
 
 .fifth-container {
     background-color: #1F2936;
